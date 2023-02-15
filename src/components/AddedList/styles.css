@@ -1,0 +1,14 @@
+.addedList {
+  width: 85%;
+}
+
+.addListItem {
+  padding-top: 5px;
+}
+
+.removeItemFromAdded {
+  cursor: pointer;
+}
+.removeItemFromAdded:hover {
+  color: red;
+}

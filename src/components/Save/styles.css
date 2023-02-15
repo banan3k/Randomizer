@@ -1,0 +1,10 @@
+.save {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.save:hover {
+  color: rgb(74, 180, 246);
+}

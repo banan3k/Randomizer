@@ -1,0 +1,15 @@
+.start {
+  width: 200px;
+  height: 100px;
+  background-color: lightskyblue;
+
+  border: 1px solid black;
+  border-radius: 10px;
+  line-height: 95px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.notActiveColor {
+  background-color: rgb(74, 180, 246);
+}

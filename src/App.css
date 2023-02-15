@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 100px;
+  width: 350px;
+  justify-content: center;
+  margin: auto;
+  transition: margin 700ms;
+  margin-top: 100px;
+}
+
+.saveAndLoad {
+  margin: 0;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.smallMargin {
+  margin-top: 50px;
+}
+
+.addingList {
+  margin-top: 50px;
+  height: 500px;
+  padding: 25px;
+  display: flex;
+}
+
+.list {
+  background-color: lightskyblue;
+  width: 33%;
+  height: 100%;
+}
+
+.list2 {
+  background-color: rgb(118, 200, 251);
+}
+
+.list3 {
+  background-color: rgb(97, 194, 255);
+}
+
+.randomizedItems {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  min-height: 200px;
+  margin-top: 50px;
+}
+
+.item {
+  margin: auto;
+  width: 33%;
+  transition: all 500ms;
+  text-align: center;
+}
+.item1 {
+  transition: all 500ms;
+}
+.item2 {
+  transition: all 750ms;
+}
+.item3 {
+  transition: all 1000ms;
+}
+
+.imgItem {
+  width: 100%;
+  height: 100%;
+}
+
+.notVisible {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.textItem {
+  border: 1px solid black;
+  padding: 15px;
+}
